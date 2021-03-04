@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="LightTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorOnPrimary">#F15C4F</item>
+        <!-- Secondary brand color. -->
+        <item name="backgroundDraw">@drawable/background_light</item>
+        <item name="cardBackgroundColor">#ECECEC</item>
+        <item name="textColor">#191818</item>
+        <item name="tintColor">#000000</item>
+        <item name="buttonColor">@color/purple_200</item>
+        <item name="desColor">#ba8f3d</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorOnPrimary">#F15C4F</item>
+        <!-- Secondary brand color. -->
+        <item name="backgroundDraw">@drawable/background_dark</item>
+        <item name="cardBackgroundColor">#2D2D2D</item>
+        <item name="textColor">#ffffff</item>
+        <item name="tintColor">#ffffff</item>
+        <item name="buttonColor">@color/purple_200</item>
+        <item name="desColor">#F5DEB3</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
