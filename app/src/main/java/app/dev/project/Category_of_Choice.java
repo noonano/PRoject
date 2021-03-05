@@ -13,7 +13,7 @@ import android.widget.TextView;
 public class Category_of_Choice extends AppCompatActivity {
 
     TextView tvCategory, tvQuote;
-    Button btnNext, btnFinish;
+    Button btnNext, btnCategory;
     ImageView ivTheme1;
 
     @Override
@@ -65,9 +65,9 @@ public class Category_of_Choice extends AppCompatActivity {
             }
         });
 
-        btnFinish =(Button)findViewById(R.id.btnFinish);
+        btnCategory = (Button) findViewById(R.id.btnCategory);
 
-        btnFinish.setOnClickListener(new View.OnClickListener() {
+        btnCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
