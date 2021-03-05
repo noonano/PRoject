@@ -56,11 +56,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="next" />
+
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="115dp"
+        android:layout_width="358dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
         app:srcCompat="@drawable/bigfam2" />
+
 </LinearLayout>
